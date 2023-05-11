@@ -207,7 +207,8 @@
   --roles-roundness: 0;
   /* change the 0 to any other number if you want the roles to be fully round */
 
-  --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px) --sidebar-width: 240px;
+  --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px);
+  --sidebar-width: 240px;
 }
 
 .profileCustomizationPreview-2-Y173 {
@@ -604,9 +605,12 @@ html:not(.spinner) {
 
 /*Fades between two primary colors*/
 @keyframes server-name-pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     color: var(--secondary-color);
   }
+
   50% {
     color: var(--primary-color);
   }
@@ -637,7 +641,8 @@ html:not(.spinner) {
   background-size: 200% auto;
 }
 
-.barInner-3NDaY_ { /*Adds a gradient to the bar in users' statuses*/
+.barInner-3NDaY_ {
+  /*Adds a gradient to the bar in users' statuses*/
   animation: gradient-move 5s linear infinite;
   background: linear-gradient(to right, var(--secondary-accent-color) 20%, var(--divider-color) 35%, var(--divider-color) 35%, var(--secondary-accent-color) 50%, var(--secondary-accent-color) 50%, var(--accent-color) 75%, var(--secondary-accent-color) 90%);
   background-size: 200% auto;
