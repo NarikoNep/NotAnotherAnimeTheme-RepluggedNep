@@ -1,216 +1,671 @@
-/* Credit to https://github.com/Overimagine1/old-discord-font */
+/**
+* @name NotAnotherAnimeTheme
+* @author puckzxz#2080
+* @version 3.2
+* @description An easily customizable and automatically updating theme
+* @invite FdZhbjY
+* @source https://github.com/puckzxz/NotAnotherAnimeTheme
+* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
+*/
 
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/46933da896ba96126074286056614542.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/1651ce6325c0da043476ace0bec3971b.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/24bda95d153a319704c33329f3ab84bb.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/7f18f1d5ab6ded7cf71bbc1f907ee3d4.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/cf4a8a10bbdf9b775fad41e0b9921c84.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9cfa747e897c772d25efd8e4a42a005e.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9e7047f6447547781512ec4b977b2ab.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/21070f52a8a6a61edef9785eaf303fb8.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f9c8fcfa7dcc5d6a291a6ebbe3bb847e.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: Whitney;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/5e1649183589023fb24667a369af585d.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/ab688947d482808a0b3347f84ebb17a9.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/0635f419b122d24f9f60ac4d1066cbc6.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/91dcabd038a2e07ea6fbe7ddb625ecfb.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/ea053183733605b24806f222b067b1e1.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9491a199bd318f1fc38711fb5067f401.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/f0cf30536a7fa447f0c45fdb3b2a6f28.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/7d66dfcf8e39f27f163fba8d79577fd8.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Normal;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9a07cb5ae387a52309b7198543ae5e02.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/5e6f352adb4a6b55ed230f2f91769156.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 300;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/30b475dcfa1e8b74d815946e4c18ee09.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/1ace668db419a5014cf75bc116321af3.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/50510b66614a2f395530c61b7c9b6827.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/9e94673570e295b6fb5d4456c4211015.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/6603a2fb4d2bc997e023972a51938144.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/87c79174865938aedf188b7344fb0428.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/d93311938f51e8608a5d5cb2ea975157.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: normal;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/bc5af8e71e27d363e2eeac75c9628922.woff2)
-    format("woff2");
-}
-@font-face {
-  font-family: ABC Ginto Nord;
-  font-style: italic;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/fonts/dc407fd65057fce34a56bf7b6ebb0b9f.woff2)
-    format("woff2");
-}
+@import url('https://nepnepshiro.xyz/Discord/naat.v3.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+/* @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css'); */
+@import url('https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css');
+/* @import url('https://dablulite.github.io/accountdetailscolumns/import.css'); */
+/* @import url("https://abuwuser.github.io/css-discord-enhancements/better-looking-devices.css"); */
+@import url("https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css");
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+/* @import url("https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css"); */
 
 :root {
-  --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: "ABC Ginto Normal", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-headline: "ABC Ginto Nord", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter",
-    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
-    "Courier New", Courier, monospace;
-  --font-korean: Whitney, "Apple SD Gothic Neo", NanumBarunGothic, "\B9D1\C740 \ACE0\B515",
-    "Malgun Gothic", Gulim, 굴림, Dotum, 돋움, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-japanese: Whitney, "Hiragino Sans", "\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3",
-    "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Osaka, "MS PGothic", "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-  --font-chinese-simplified: Whitney, "Microsoft YaHei New", 微软雅黑, "Microsoft Yahei",
-    "Microsoft JhengHei", 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-chinese-traditional: Whitney, "Microsoft JhengHei", 微軟正黑體, "Microsoft JhengHei UI",
-    "Microsoft YaHei", 微軟雅黑, 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*
+    Theme Background
+  */
+  --theme-background-image: url(https://images.hdqwalls.com/download/anime-girl-cyberpunk-ride-4k-lx-2560x1440.jpg);
+
+  /*
+    Main Theme Color
+  */
+  --main-theme-color: rgb(143, 0, 187);
+
+  --primary-color: rgb(143, 0, 187);
+  --secondary-color: rgb(187, 0, 156);
+  --divider-color: rgb(90, 0, 187);
+
+  /*
+    Main Theme Transparency
+  */
+  --theme-transparency: rgba(0, 0, 0, 0.8);
+
+  /*
+    Home Icon Image
+  */
+  --home-icon-image: url(https://i.pinimg.com/750x/a8/47/9a/a8479a922b151b03df56a6db105dc5dd.jpg);
+
+  /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your friends icon image zoom
+  */
+  --home-icon-image-zoom: 100%;
+
+  /*
+    Server Listing Width
+    Single Column:  72px
+    Double Column:  126px
+    Triple Column:  184px
+    Quad Column:    242px
+  */
+  --server-listing-width: 126px;
+
+  /*
+    Font Size
+  */
+  --font-size: 100%;
+
+  /*
+    Mention colors
+  */
+  --mention-color: rgba(250, 166, 26, 0.05);
+  --mention-sider: rgba(250, 166, 26, 1);
+  --mention-hover-color: rgba(250, 166, 26, 0.08);
+
+  /*
+    Server category hover color
+  */
+  --category-hover-color: rgb(202, 60, 60);
+
+  /*
+    Change the unread server animation.
+    Replace it with "none" in order to remove any animations and use the main color instead
+  */
+  --unread-server-animation: rainbow;
+
+  /*
+    Video / Screen share buttons
+  */
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+
+  /*
+    Role Title Color
+  */
+  --member-listing-role-color: var(--main-theme-color);
+
+  /*
+    Code Markup
+  */
+  --code-markup-background-color: rgba(0, 0, 0, 0.6);
+  --code-markup-border: 1px solid transparent;
+
+  /*
+    Message Box Transparency
+  */
+  --message-box-transparency: rgba(0, 0, 0, 0.6);
+
+  /*
+    Embed Background Transparency
+  */
+  --embed-background-transparency: rgba(0, 0, 0, 0.6);
+
+  /*
+    Message Hover Buttons
+  */
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
+
+  /*
+    Context Menu Transparency
+  */
+  --context-menu-transparency: rgba(15, 15, 15, 255);
+
+  /*
+    Add Server / Discovery Icon
+  */
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-color: var(--main-theme-color);
+
+  /*
+    Channel Limit Number Color
+  */
+  --channel-limit-count-color: var(--channels-default);
+  --channel-limit-background-left: rgba(200, 200, 200, 0.1);
+  --channel-limit-background-right: rgba(200, 200, 200, 0.2);
+
+  /*
+    Scrollbar Colors
+  */
+  --scrollbar-color: rgba(200, 200, 200, 0.2);
+
+  /*
+    Unread Message Divider
+  */
+  --unread-message-divider-color: #f04747;
+  --unread-message-divider-font-color: #fff;
+
+  /*
+    New Messages Bar Color
+  */
+  --new-messages-bar-background-color: #7289da;
+  --new-messages-bar-font-color: #fff;
+
+  /*
+    Emoji Menu
+  */
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
+  --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
+  --emoji-menu-bottom-bar-background-color: black;
+  --emoji-menu-search-bar-background-color: rgba(200, 200, 200, 0.1);
+
+  /*
+    Message Search
+  */
+  --message-search-menu-background-color: rgba(0, 0, 0, 0.8);
+  --message-search-container-background-color: rgba(0, 0, 0, 0.6);
+  --message-search-result-background-color: rgba(200, 200, 200, 0.05);
+
+  /*
+    Channel colors
+  */
+  --text-voice-channel-color: rgb(142, 146, 151);
+  --text-voice-channel-hover-color: #dcddde;
+  --text-voice-channel-selected-text-color: #fff;
+  --unread-text-channel-color: #fff;
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+
+  /*
+    Folders
+  */
+  --folder-background-color: #2f3136;
+  --expanded-folder-background-color: transparent;
+
+  /*
+    Reactions
+  */
+  --reaction-emoji-background-color: rgba(0, 0, 0, 0);
+  --reaction-emoji-border-color: 1px solid transparent;
+  --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
+  --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+
+  --badge-size: 22px;
+  /*discord defualt = 18px, theme defualt = 22px;*/
+  --badge-margin: 1.5px;
+  /*discord default = 2px, theme defualt = 1.5px*/
+  --badges-everywhere-size: 15px;
+  /*default = 15px*/
+
+  --font-primary: Whitney, gg sans, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --font-display: Whitney, gg sans, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+  --roles-roundness: 0;
+  /* change the 0 to any other number if you want the roles to be fully round */
+
+  --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px) --sidebar-width: 240px;
+}
+
+.profileCustomizationPreview-2-Y173 {
+  background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 60px, var(--profile-gradient-secondary-color))
+}
+
+.imageWrapper-oMkQl4 .imageAccessory-2yA7Kb {
+  left: unset;
+  right: 6px;
+}
+
+.hoverButtonGroup-2yZIzC {
+  right: unset;
+  left: 6px;
+  background: rgba(29, 29, 29, 0.8);
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg {
+  padding: 0 0 0 16px
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs)>.wrapper-30-Nkg.compact-2Nkcau {
+  padding: 0 0 0 108px
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) {
+  margin: 0
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1.expanded-3lghlw:not(.backgroundFlash-1X5jVs) {
+  background-color: var(--info-danger-background)
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) .messageListItem-ZZ7v6g .groupStart-3Mlgv1,
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs, .expanded-3lghlw)+.messageListItem-ZZ7v6g .groupStart-3Mlgv1 {
+  margin-top: 0
+}
+
+.scrollerInner-2PPAp2>.groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs) .messageListItem-ZZ7v6g {
+  opacity: .5
+}
+
+.blockedSystemMessage-3FmE9n .iconContainer-2rPbqG {
+  display: none
+}
+
+.blockedMessageText-3Zeg3y {
+  position: relative;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--interactive-muted)
+}
+
+.blockedMessageText-3Zeg3y:hover {
+  text-decoration: underline
+}
+
+.blockedMessageText-3Zeg3y:hover,
+.groupStart-3Mlgv1.expanded-3lghlw .blockedMessageText-3Zeg3y {
+  color: var(--info-danger-foreground)
+}
+
+.blockedAction-2cPk2G {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0
+}
+
+.blockedMessageText-3Zeg3y:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 14px;
+  pointer-events: none;
+  background-color: currentColor;
+  -webkit-mask: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z M5 6.99902V18.999C5 20.101 5.897 20.999 7 20.999H17C18.103 20.999 19 20.101 19 18.999V6.99902H5ZM11 17H9V11H11V17ZM15 17H13V11H15V17Z" ></path></svg>') center/contain no-repeat
+}
+
+.role-2TIOKu {
+  transform: translate(0);
+  border: 0;
+  border-radius: var(--roles-roundness-calc);
+}
+
+.role-2TIOKu .roleRemoveIcon-387wKV {
+  margin: 0;
+  left: unset;
+  transform: translate(50%, -50%);
+}
+
+.role-2TIOKu .roleRemoveButton-17oXnT {
+  position: static
+}
+
+.role-2TIOKu .roleCircle-3K9O3d:before {
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  background: inherit;
+  border-radius: var(--roles-roundness-calc);
+  border: 2px solid transparent;
+  -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+}
+
+.toolbar-3_r2xA .anchor-1MIwyf {
+  display: none;
+}
+
+.container-2RRFHK {
+  background: transparent;
+  pointer-events: none;
+}
+
+.container-2RRFHK .anchor-1MIwyf {
+  pointer-events: auto;
+}
+
+.container-2RRFHK .content-3AIQZv .text-2bYgPB {
+  display: none;
+}
+
+.container-2RRFHK .ready-3BZNWT {
+  position: absolute;
+  bottom: 44px;
+  right: 244px;
+  z-index: 1;
+}
+
+.container-2RRFHK img,
+.container-2RRFHK video {
+  width: 32px;
+  height: 32px;
+}
+
+.container-2RRFHK .problems-CvGwpb {
+  padding: 8px 16px;
+  bottom: 18px;
+  left: unset;
+  right: 18px;
+  width: fit-content;
+  height: fit-content;
+  background-color: var(--background-floating);
+  border-radius: 8px;
+  -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
+  box-shadow: var(--elevation-stroke), var(--elevation-medium);
+}
+
+.modeMuted-2T4MDZ .icon-2W8DHg path {
+  display: none;
+}
+
+.modeMuted-2T4MDZ .iconContainer-21RCa3 {
+  position: relative;
+}
+
+.modeMuted-2T4MDZ .iconContainer-21RCa3:before {
+  content: '🔇';
+  position: absolute;
+  font-size: 20px;
+}
+
+/* Re-round Spotify Status Images */
+.assetsLargeImageSpotify-17ME3M {
+  border-radius: 8px;
+}
+
+/* Rounded Context Menu */
+.menu-1QACrS,
+.colorDefault-CDqZdO {
+  border-radius: 15px;
+}
+
+/* Pop-out Animation */
+.menu-2TXYjN,
+.emojiPicker-6YCk8a,
+.browser-mnQ1T7,
+.messagesPopoutWrap-3zryHW,
+.wrapper-1NB3WY,
+.container-3u7RcY,
+.container-2o3qEW,
+.container-2ebMPP,
+.userPopout-2j1gM4,
+.animatorRight-3o3AYV,
+.translate-2vghI-,
+.didRender-2dwLEv {
+  animation: custom-menu-animation 250ms ease;
+  transform-origin: top;
+}
+
+@keyframes custom-menu-animation {
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+/* Rounded User Panel */
+.panels-3wFtMD {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: 1px solid var(--background-modifier-accent);
+  border-radius: 20px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+  background-color: rgba(22, 0, 32, 0.356)
+}
+
+.theme-dark .container-YkUktl,
+.container-1zzFcN,
+.theme-dark .panel-2ZFCRb {
+  background-color: transparent !important;
+}
+
+.panels-3wFtMD .container-YkUktl .flex-2S1XBF {
+  margin-left: -10px;
+}
+
+/* Emoji Auto-Fill Animation */
+.base-2v-uc0 {
+  transition: all 0.5s;
+}
+
+.base-2v-uc0:hover {
+  transition: all 0s;
+  transform: scale(1.02);
+}
+
+/* Better Jump To Present Button */
+[class*="jumpToPresentBar"] {
+  display: contents;
+}
+
+[class*="jumpToPresentBar"]>button:first-child {
+  display: none;
+}
+
+[class*="jumpToPresentBar"]>button:last-child {
+  position: absolute;
+  z-index: 1;
+  bottom: 24px;
+  right: 22px;
+  padding: 8px !important;
+  height: auto;
+  background-color: #5865F2;
+  box-shadow: var(--elevation-high);
+  border-radius: 100px;
+  display: flex;
+  font-size: 0px;
+  color: transparent;
+  transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+
+[class*="jumpToPresentBar"]>button svg {
+  order: -1;
+  margin: 0px;
+  height: 24px;
+  width: 24px;
+  top: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #FFFFFF;
+  transition: margin .6s;
+}
+
+[class*="jumpToPresentBar"]:hover>button {
+  padding: 8px 18px !important;
+  font-size: 14px;
+  color: #FFFFFF;
+  transition: font-size .2s, color .2s .1s, padding .4s;
+}
+
+[class*="jumpToPresentBar"]:hover>button svg {
+  margin-right: 2px;
+  margin-left: -6px;
+}
+
+.bd-toast {
+  background-color: var(--background-tertiary) !important;
+  border-radius: 32px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  padding: 16px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+
+.bd-toast.toast-success.icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEuMjg0ODUgMy40NjkyNCAyMS44MzYzNTAwMDAwMDAwMDMgMTcuNjUyMTYwMDAwMDAwMDAyIj4KICA8cGF0aCBkPSJNOS4wMDA0MyAxNC4wNDkyTDE5LjU5MDQgMy40NjkyNEwyMy4xMjEyIDcuMDAwMDZMOC45OTk5MyAyMS4xMjE0TDEuMjg0ODUgMTMuNDA2M0w0LjgzMzY3IDkuODgyNDhMOS4wMDA0MyAxNC4wNDkyWiIgZmlsbD0iIzNCQTU1QyIvPgo8L3N2Zz4=") !important;
+}
+
+.bd-toast.icon {
+  padding-left: 30px !important;
+}
+
+.bd-toast.toast-danger.icon,
+.bd-toast.toast-error.icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjcgMTAgNiA2Ij4KICA8cGF0aCBkPSJNIDEyIDEwIEwgMTMgMTEgTCAxMSAxMyBMIDEzIDE1IEwgMTIgMTYgTCAxMCAxNCBMIDggMTYgTCA3IDE1IEwgOSAxMyBMIDcgMTEgTCA4IDEwIEwgMTAgMTIgWiIgZmlsbD0iI2YwNDc0NyIvPgo8L3N2Zz4=") !important;
+  padding-left: 35px !important;
+}
+
+.panels-3wFtMD>.container-YkUktl .flex-2S1XBF> :not(:last-child) {
+  opacity: 0% !important;
+  width: 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.panels-3wFtMD>.container-YkUktl:hover .flex-2S1XBF> :not(:last-child) {
+  opacity: 100% !important;
+  width: 32px;
+}
+
+/* Unclamp the About Me section, so it's not limited to just 6 lines. (normally it cuts off at 6 and adds a ...) */
+.lineClamp2Plus-2SCQmH:not(.headerText-3MQ6n4 .lineClamp2Plus-2SCQmH) {
+  -webkit-line-clamp: 190 !important;
+  max-height: 112px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.lineClamp2Plus-2SCQmH::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+.lineClamp2Plus-2SCQmH::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(255 255 255 / 4%);
+}
+
+.lineClamp2Plus-2SCQmH::-webkit-scrollbar-thumb {
+  background: rgba(255 255 255 / 14%);
+  border-radius: 10px;
+}
+
+.spoilerText-27bIiA,
+.spoilerText-27bIiA.hidden-3B-Rum {
+  background-color: transparent !important;
+}
+
+.spoilerText-27bIiA.hidden-3B-Rum>.inlineContent-2YnoDy {
+  opacity: 1 !important;
+  filter: blur(3px);
+  pointer-events: unset;
+}
+
+img.emote {
+  text-indent: 0;
+  white-space: nowrap;
+  width: auto;
+  position: relative;
+  top: 0.25ex;
+}
+
+.chat-3bRxxu.threadSidebarOpen-vdkwIh {
+  resize: horizontal;
+  min-width: 400px;
+  max-width: calc(100vw - var(--sidebar-width) - 72px - 400px);
+}
+
+.chat-3bRxxu:not(.threadSidebarOpen-vdkwIh) {
+  width: unset !important;
+  flex: 1 1 auto;
+}
+
+.threadSidebar-1o3BTy {
+  width: unset;
+  flex: 1 1 auto;
+}
+
+.container-NdaZbY {
+  position: sticky;
+  bottom: 0;
+  background-color: var(--background-secondary);
+  z-index: 1;
+}
+
+html:not(.spinner) {
+  backface-visibility: hidden;
+}
+
+/*Fades between two primary colors*/
+@keyframes server-name-pulse {
+  0%, 100% {
+    color: var(--secondary-color);
+  }
+  50% {
+    color: var(--primary-color);
+  }
+}
+
+@keyframes gradient-move {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.name-3Uvkvr {
+  animation: server-name-pulse 20s linear infinite;
+}
+
+/*[SPOTIFY PLUGIN TIMEBAR COLOR]*/
+/*If you have Better Discord's Spotify plugin,
+/*this will set a gradient for the progress bar*/
+.barFill-Dhkah7 {
+  animation: gradient-move 5s linear infinite;
+  background: linear-gradient(to right, var(--primary-color) 20%, var(--divider-color) 35%, var(--divider-color) 35%, var(--primary-color) 50%, var(--primary-color) 50%, var(--secondary-color) 75%, var(--primary-color) 90%);
+  background-size: 200% auto;
+}
+
+.barFill-Dhkah7:hover {
+  animation: gradient-move 5s linear infinite;
+  background: linear-gradient(to right, var(--primary-color) 20%, white 35%, white 35%, var(--primary-color) 50%, var(--primary-color) 50%, var(--secondary-color) 75%, var(--primary-color) 90%);
+  background-size: 200% auto;
+}
+
+.barInner-3NDaY_ { /*Adds a gradient to the bar in users' statuses*/
+  animation: gradient-move 5s linear infinite;
+  background: linear-gradient(to right, var(--secondary-accent-color) 20%, var(--divider-color) 35%, var(--divider-color) 35%, var(--secondary-accent-color) 50%, var(--secondary-accent-color) 50%, var(--accent-color) 75%, var(--secondary-accent-color) 90%);
+  background-size: 200% auto;
+}
+
+.timeline-UWmgAx:hover .barFill-Dhkah7 {
+  animation: gradient-move 5s linear infinite;
+  background: linear-gradient(to right, var(--primary-color) 20%, white 35%, white 35%, var(--primary-color) 50%, var(--primary-color) 50%, var(--secondary-color) 75%, var(--primary-color) 90%);
+  background-size: 200% auto;
+}
+
+/*[MENTION GRADIENT]*/
+/*Gives mentions a similar gradient to the name display gradients*/
+.mentioned-Tre-dv {
+  animation: gradient-move 10s linear infinite;
+  background: linear-gradient(to right, #af21883b 20%, #1717173b 35%, #1717173b 35%, #af218876 50%, #af218876 50%, #5d60ca3b 75%, #af21883b 90%);
+  background-size: 200% auto;
+}
+
+/*Sets the highlight tone to increase opacity on mouseover*/
+.mentioned-Tre-dv:hover {
+  animation: gradient-move 10s linear infinite;
+  background: linear-gradient(to right, #af21885b 20%, #1717175b 35%, #1717175b 35%, #af218896 50%, #af218896 50%, #5d60ca5b 75%, #af21885b 90%);
+  background-size: 200% auto;
+}
+
+.mentioned-Tre-dv:before {
+  animation: gradient-move 10s linear infinite;
+  background: linear-gradient(to top, #af21885b 20%, #1717175b 35%, #1717175b 35%, #af218896 50%, #af218896 50%, #5d60ca5b 75%, #af21885b 90%);
+  background-size: 200% auto;
 }

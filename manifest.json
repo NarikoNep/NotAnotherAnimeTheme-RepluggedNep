@@ -1,16 +1,16 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "com.nep.NAAT",
+  "name": "NotAnotherAnimeTheme",
+  "description": "NotAnotherAnimeTheme",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "NepuShiro",
+    "discordID": "133734038966894592",
+    "github": "NarikoNep"
   },
   "version": "1.0.0",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "NarikoNep/NotAnotherAnimeTheme-RepluggedNep"
   },
   "license": "MIT",
   "type": "replugged-theme",
